@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
  
-@layer base {
+/* @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 222.2 84% 4.9%;
@@ -67,7 +69,7 @@
 }
  
 .border-border {
-  border: 1px solid #000; /* Replace with your desired border style */
+  border: 1px solid #000; 
 }
 
 
@@ -83,4 +85,4 @@ h1 {
 }
 h2 {
   @apply scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0;
-}
+} */
