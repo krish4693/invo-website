@@ -1,3 +1,4 @@
+
 import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
 // import { HeroCards } from "./HeroCards";
@@ -9,7 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
-// import Mockup from "./Mockup";
+import Mockup from "./Mockup";
 import { GitHubLogoIcon,ReaderIcon,DownloadIcon } from "@radix-ui/react-icons";
 
 export const Hero = () => {
@@ -65,7 +66,7 @@ export const Hero = () => {
       {/* <div className="shadow"></div> */}
       
       <div className="z-10">
-        {/* <Mockup/> */}
+        <Mockup/>
         {/* <HeroCards /> */}
       </div>
       

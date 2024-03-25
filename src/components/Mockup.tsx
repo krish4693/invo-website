@@ -4,7 +4,7 @@ import MockupImg from '../../public/mockuper.png';
 
 const Mockup = () => {
   return (
-    <img src={MockupImg} alt="" style={{ width: '100%', height: 'auto' }} className='gi' />
+    <img src={MockupImg.src} alt="" style={{ width: '100%', height: 'auto' }} className='gi' />
   );
 };
 
