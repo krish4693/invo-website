@@ -48,7 +48,7 @@ const routeList: RouteProps[] = [
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
-    <header className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
+    <div className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
       <NavigationMenu className="mx-auto">
         <NavigationMenuList className="container h-14 px-4 w-screen flex justify-between ">
           <NavigationMenuItem className="font-bold flex">
@@ -102,7 +102,7 @@ export const Navbar = () => {
           </span>
 
           {/* desktop */}
-          <nav className="hidden md:flex gap-2">
+          <div className="hidden md:flex gap-2">
             {routeList.map((route: RouteProps, i) => (
               <a
                 href={route.href}
@@ -114,7 +114,7 @@ export const Navbar = () => {
                 {route.label}
               </a>
             ))}
-          </nav>
+          </div>
 
           <div className="hidden md:flex gap-2">
             <a
@@ -143,6 +143,6 @@ export const Navbar = () => {
           </div>
         </NavigationMenuList>
       </NavigationMenu>
-    </header>
+    </div>
   );
 };

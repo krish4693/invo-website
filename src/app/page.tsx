@@ -16,6 +16,7 @@ export default function Home() {
       <Otherfeatures />
       <FAQ />
       <Contactus />
+      <Footer/>
 
     </main>
   );
