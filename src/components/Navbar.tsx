@@ -118,15 +118,14 @@ export const Navbar = () => {
           </div>
 
           <div className="hidden md:flex gap-2">
-            <a
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
-              target="_blank"
+            <Link
+              href="/docs"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
               <ReaderIcon className="mr-2 w-6 h-5" />
                 Docs
               
-            </a>
+            </Link>
             <Button asChild>
             <Link
               href="https://github.com/leoMirandaa/shadcn-landing-page.git"
