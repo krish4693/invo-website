@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import {
@@ -46,11 +47,7 @@ const routeList: RouteProps[] = [
 ];
 
 export const Navbar = () => {
-  const [isOpen, setIsOpen] = useState<boolean>(false);
-  const [isClient,setIsClient] = useState<boolean>(false);
-  useEffect(() => {
-    setIsClient(true)
-  },[]);
+  const [isOpen, setIsOpen] = useState<boolean>(false)
   return (
     <div className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
       <NavigationMenu className="mx-auto">
@@ -130,15 +127,15 @@ export const Navbar = () => {
                 Docs
               
             </a>
-            <Button>
-            <a
+            <Button asChild>
+            <Link
               href="https://github.com/leoMirandaa/shadcn-landing-page.git"
               target="_blank"
               className="flex"
             >
               <DownloadIcon className="mr-2 w-5 h-5" />
               Download
-            </a>
+            </Link>
             
             </Button>
             
