@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Button } from "./ui/button";
 import {
   NavigationMenu,
@@ -18,7 +18,6 @@ import { GitHubLogoIcon,DownloadIcon,ReaderIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
-import dynamic from "next/dynamic";
 
 interface RouteProps {
   href: string;
@@ -46,8 +45,12 @@ const routeList: RouteProps[] = [
   
 ];
 
-const Navbar = () => {
+export const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [isClient,setIsClient] = useState<boolean>(false);
+  useEffect(() => {
+    setIsClient(true)
+  },[]);
   return (
     <div className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
       <NavigationMenu className="mx-auto">
@@ -148,6 +151,3 @@ const Navbar = () => {
   );
 };
 
-export default dynamic(()=>Promise.resolve(Navbar),{
-  ssr:false,
-})
