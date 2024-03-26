@@ -11,7 +11,7 @@ export const Contactus = () => {
   return (
     <section id="contact" className="md:mb-7">
 
-      <div className="flex flex-col md:flex md:flex-row md:mx-">
+      <div className="flex flex-col md:flex md:flex-row md:mx-10">
       <form
           className="flex flex-col  justify-center align-center w-full md:flex-col md:w-6/12 lg:w-4/12  gap-4 md:gap-2 md:ml-auto"
           onSubmit={handleSubmit}
