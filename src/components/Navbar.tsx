@@ -18,6 +18,7 @@ import { GitHubLogoIcon,DownloadIcon,ReaderIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
+import dynamic from "next/dynamic";
 
 interface RouteProps {
   href: string;
@@ -45,7 +46,7 @@ const routeList: RouteProps[] = [
   
 ];
 
-export const Navbar = () => {
+const Navbar = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <div className="sticky border-b-[1px] top-0 z-40 w-full bg-white dark:border-b-slate-700 dark:bg-background">
@@ -146,3 +147,7 @@ export const Navbar = () => {
     </div>
   );
 };
+
+export default dynamic(()=>Promise.resolve(Navbar),{
+  ssr:false,
+})

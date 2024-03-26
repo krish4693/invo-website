@@ -1,4 +1,3 @@
-import { Navbar } from "../components/Navbar";
 import './globals.css'
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
@@ -6,7 +5,6 @@ import { Features } from "@/components/Features";
 import { Otherfeatures } from "@/components/Otherfeatures";
 import { FAQ } from "@/components/FAQ";
 import { Contactus } from "@/components/Contactus";
-import { Footer } from "@/components/Footer";
 export default function Home() {
   return (
     <main>
