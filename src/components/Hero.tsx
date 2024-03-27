@@ -47,7 +47,7 @@ export const Hero = () => {
             Download</Button>
 
           <a
-            href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+            href="https://invov2.netlify.app/"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",

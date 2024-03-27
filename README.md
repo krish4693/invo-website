@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# INVO: Inventory Management System 
 
-## Getting Started
+INVO is an inventory management system designed to simplify inventory management for small-scale shopkeepers. It helps users track stock levels and monitor sales. INVO empowers small-scale shopkeepers by providing a user-friendly interface that makes inventory management easy and enjoyable.
 
-First, run the development server:
+![mockuper](https://github.com/krish4693/invo-website/assets/82331436/0e7e65b1-134d-4ae1-9642-c87c6855cf44)
+
+![mockuper (1)](https://github.com/krish4693/invo-website/assets/82331436/9d0ef8a6-4307-48a1-8dde-b232d99794b1)
+
+![mockuper (4)](https://github.com/krish4693/invo-website/assets/82331436/dc6cf836-72c2-49ae-a813-1b6fc5bf13f8)
+
+
+## Sections
+
+- [x] Navbar
+- [x] Hero
+- [x] About
+- [x] Features
+- [x] Other Features
+- [x] Frequently Asked Questions(FAQ)
+- [x] Contact Us
+- [x] Footer
+
+## Features
+
+- [x] Stock Tracking
+- [x] Sales monitoring
+- [x] Customizable columns
+
+## How to install
+
+1. Clone this repositoy:
+
+```bash
+git clone 
+```
+
+2. Go into project
+
+```bash
+cd Invo-landing-page
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run project
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

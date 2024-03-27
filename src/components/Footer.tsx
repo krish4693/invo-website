@@ -13,14 +13,14 @@ export const Footer = () => {
           >
             <span className="font-pacifico">INVO</span>
             <p>
-            Simplified Inventory Managment System
+            
 
             </p>
           </a>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+          <h3 className="font-bold text-lg">Follow Us</h3>
           <div>
             <a
               href="#"

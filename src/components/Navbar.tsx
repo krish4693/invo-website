@@ -128,7 +128,7 @@ export const Navbar = () => {
             </Link>
             <Button asChild>
             <Link
-              href="https://github.com/leoMirandaa/shadcn-landing-page.git"
+              href="https://invov2.netlify.app/"
               target="_blank"
               className="flex"
             >
