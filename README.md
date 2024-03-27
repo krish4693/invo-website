@@ -31,19 +31,19 @@ INVO is an inventory management system designed to simplify inventory management
 1. Clone this repositoy:
 
 ```bash
-git clone 
+git clone git@github.com:krish4693/invo-website.git
 ```
 
 2. Go into project
 
 ```bash
-cd Invo-landing-page
+cd Invo-website
 ```
 
 3. Install dependencies
 
 ```bash
-npm install
+npm i
 ```
 
 4. Run project
