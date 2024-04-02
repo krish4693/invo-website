@@ -37,7 +37,7 @@ git clone git@github.com:krish4693/invo-website.git
 2. Go into project
 
 ```bash
-cd Invo-website
+cd invo-website
 ```
 
 3. Install dependencies
