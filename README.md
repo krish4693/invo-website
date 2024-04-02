@@ -2,11 +2,11 @@
 
 INVO is an inventory management system designed to simplify inventory management for small-scale shopkeepers. It helps users track stock levels and monitor sales. INVO empowers small-scale shopkeepers by providing a user-friendly interface that makes inventory management easy and enjoyable.
 
-![mockuper](https://github.com/krish4693/invo-website/assets/82331436/0e7e65b1-134d-4ae1-9642-c87c6855cf44)
+![mockuper](https://github.com/krish4693/invo-website/assets/82331436/b165a471-ae05-460c-978a-1adff7d52359)
 
-![mockuper (1)](https://github.com/krish4693/invo-website/assets/82331436/9d0ef8a6-4307-48a1-8dde-b232d99794b1)
+![mockuper (1)](https://github.com/krish4693/invo-website/assets/82331436/7f6dc091-aaf8-4fb3-9163-1c71698c46d5)
 
-![mockuper (4)](https://github.com/krish4693/invo-website/assets/82331436/dc6cf836-72c2-49ae-a813-1b6fc5bf13f8)
+![mockuper (4)](https://github.com/krish4693/invo-website/assets/82331436/fb6b89e0-03e7-4d59-abe0-891f06b4bbdf)
 
 
 ## Sections
