@@ -20,7 +20,8 @@ export default {
     link: 'https://github.com/shuding/nextra'
   },
 
-
+  primaryHue: 1,
+  primarySaturation:1,
   
   logo: ()=>{
 
