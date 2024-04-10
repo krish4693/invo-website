@@ -17,20 +17,23 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <ThemeProvider>
 
     <html lang="en">
-          <body >
+      <body >
+        <ThemeProvider>
+
           <Navbar />
 
           <main>{children}</main>
           <Footer />
+        </ThemeProvider>
 
-        </body>
-        
+      </body>
+
+
+
 
     </html>
-    </ThemeProvider>
 
   );
 }
