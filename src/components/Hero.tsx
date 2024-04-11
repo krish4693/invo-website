@@ -2,6 +2,7 @@
 import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
 // import { HeroCards } from "./HeroCards";
+
 import {
   Card,
   CardContent,
@@ -63,7 +64,7 @@ export const Hero = () => {
       
 
       {/* Shadow effect */}
-      {/* <div className="shadow"></div> */}
+      <div className="shadow"></div>
       
       <div className="z-10">
         <Mockup/>

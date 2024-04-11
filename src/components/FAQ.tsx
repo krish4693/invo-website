@@ -49,7 +49,7 @@ import {
         id="faq"
         className="container py-24 sm:py-32"
       >
-        <h2 className="bg-gradient-to-r from-orange-300 to-orange-500 text-transparent bg-clip-text text-3xl md:text-4xl font-bold mb-4">
+        <h2 className="bg-clip-text text-3xl md:text-4xl font-bold mb-4">
           Frequently Asked{" "}
             Questions
         </h2>
