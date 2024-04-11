@@ -1,0 +1,51 @@
+# Installation Guide 
+
+Follow these steps to download and install INVO from our GitHub repository:
+
+**Step 1: Clone the Repository**
+
+1. Open your web browser and navigate to the INVO GitHub repository at https://github.com/nikhitkumar00/invo-v2.
+2. Click on the green "Code" button located near the top right corner of the page.
+3. In the dropdown menu, select "Download ZIP" to download the repository as a ZIP file.
+4. Once the download is complete, locate the downloaded ZIP file on your computer and extract its contents to a folder of your choice.
+
+**Step 2: Set Up Your Development Environment**
+
+1. Make sure you have a suitable development environment set up on your computer. You'll need Node.js and npm (Node Package Manager) installed. You can download Node.js from https://nodejs.org/ and follow the installation instructions for your operating system.
+2. Verify that Node.js and npm are installed correctly by opening a terminal or command prompt and running the following commands:
+These commands should display the installed versions of Node.js and npm, respectively.
+
+node -v
+npm -v
+
+**Step 3: Install Dependencies**
+
+1. Open a terminal or command prompt and navigate to the folder where you extracted the contents of the INVO repository.
+2. Once inside the repository folder, run the following command to install the project dependencies:
+This command will install all the required dependencies specified in the `package.json` file.
+
+npm install
+
+**Step 4: Configure the Environment**
+
+1. INVO requires a connection to a MySQL database. Make sure you have a MySQL server installed and running on your computer. You can download MySQL from https://www.mysql.com/ and follow the installation instructions for your operating system.
+2. Create a new MySQL database for INVO to use. You can do this using a MySQL client or by running SQL commands directly in the MySQL command line interface.
+3. Once you have created the database, open the `.env.example` file located in the root directory of the INVO repository.
+4. Rename the file to `.env` and update the database connection details with your MySQL credentials. For example:
+Replace `localhost` with the hostname of your MySQL server, `root` with your MySQL username, `password` with your MySQL password, and `your_database_name` with the name of the database you created for INVO.
+
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=password
+DB_DATABASE=your_database_name
+
+**Step 5: Run the Application**
+
+1. Once you have configured the environment, you can start the INVO application by running the following command in the terminal or command prompt:
+This command will start the development server, and you should see output indicating that the server is running.
+
+npm start
+
+2. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000/) to access the INVO application.
+
+That's it! You have successfully installed and set up INVO on your computer. You can now start using it to manage your inventory and invoices. If you encounter any issues during the installation process, refer to the troubleshooting section in the INVO documentation or reach out to our support team for assistance.
