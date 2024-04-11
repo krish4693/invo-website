@@ -18,7 +18,6 @@ import {
 import { GitHubLogoIcon,DownloadIcon,ReaderIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
-import { ModeToggle } from "./mode-toggle";
 import ThemeSwitch from "./ThemeSwitch";
 
 interface RouteProps {
@@ -64,7 +63,7 @@ export const Navbar = () => {
 
           {/* mobile */}
           <span className="flex md:hidden">
-            <ModeToggle />
+            <ThemeSwitch />
 
             <Sheet
               open={isOpen}
