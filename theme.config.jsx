@@ -17,7 +17,7 @@ const useDark = () => {
 
 export default {  
   project: {
-    link: 'https://github.com/shuding/nextra'
+    link: 'https://github.com/nikhitkumar00/invo-v2'
   },
 
   primaryHue: 1,
