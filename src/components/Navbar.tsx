@@ -119,7 +119,7 @@ export const Navbar = () => {
 
           <div className="hidden md:flex gap-2">
             <Link
-              href="/docs/getting-started"
+              href="/docs/Getting-Started"
               className={`border ${buttonVariants({ variant: "secondary" })}`}
             >
               <ReaderIcon className="mr-2 w-6 h-5" />

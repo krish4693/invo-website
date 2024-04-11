@@ -4,7 +4,8 @@
         "title": "docs",
         "type": "page",
         "display": "hidden",
-        "children": [{ "name": "Getting-Started" }, { "name": "Introduction" }, { "name": "Installation-Guide" }, 
+        "children": [{ "name": "Getting-Started" },
+         { "name": "Introduction" }, { "name": "Installation-Guide" }, 
         { "name": "Features-Overview" }, { "name": "Detailed-Features-Overview" },{ "name": "Unique-Selling-Proposition"} ]
         
 
