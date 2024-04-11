@@ -22,6 +22,7 @@ export default {
 
   primaryHue: 1,
   primarySaturation:1,
+  staticImage: true,
   
   logo: ()=>{
 
