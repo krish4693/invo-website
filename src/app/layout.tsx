@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ThemeProvider } from "@/components/theme-provider";
+import ThemeProvider  from "./provider";
 
 
 
@@ -20,7 +20,7 @@ export default function RootLayout({
 
     <html lang="en">
       <body >
-        <ThemeProvider>
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
 
           <Navbar />
 

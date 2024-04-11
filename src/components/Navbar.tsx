@@ -19,6 +19,7 @@ import { GitHubLogoIcon,DownloadIcon,ReaderIcon } from "@radix-ui/react-icons";
 import { buttonVariants } from "./ui/button";
 import { Menu } from "lucide-react";
 import { ModeToggle } from "./mode-toggle";
+import ThemeSwitch from "./ThemeSwitch";
 
 interface RouteProps {
   href: string;
@@ -138,8 +139,7 @@ export const Navbar = () => {
             
             </Button>
             
-
-            <ModeToggle />
+            <ThemeSwitch/>
           </div>
         </NavigationMenuList>
       </NavigationMenu>
