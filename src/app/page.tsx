@@ -14,20 +14,16 @@ import { ThemeProvider } from '@/components/theme-provider';
 
 export default function Home() {
   return (
-     <main>
-    <ThemeProvider>
+     <>
 
-      <Navbar />
       <Hero />
       <About />
       <Features />
       <Otherfeatures />
       <FAQ />
       <Contactus />
-      <Footer />
 
-    </ThemeProvider>
 
-    </main>
+    </>
   );
 }

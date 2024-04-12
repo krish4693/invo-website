@@ -19,13 +19,19 @@ export default function RootLayout({
 }) {
   return (
 
-    <html lang="en">
+    <html lang="en" className="overflow-x-hidden">
 
           <body >
+            <ThemeProvider>
+            <main >
+              <Navbar/>
+              {children}
+              <hr />
 
-            {children}
+              <Footer />
+            </main>
+            </ThemeProvider>
 
-          <hr />
 
         </body>
         
