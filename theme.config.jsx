@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import LogoIcon from './public/logo.svg'
 import { useTheme } from "nextra-theme-docs";
+import DarkLogo from './public/darklogo.svg'
+import { useState,useEffect } from 'react';
 
 const useDark = () => {
   const { resolvedTheme } = useTheme();
@@ -25,10 +27,11 @@ export default {
   staticImage: true,
   
   logo: ()=>{
-
+    const isDark = useDark();
+      
       return(
         <>
-          <Image src={LogoIcon} width="60" height="30" alt="invo" style={{ marginRight: "10px" }} />
+          <Image src={isDark?DarkLogo:LogoIcon} width="60" height="30" alt="invo" style={{ marginRight: "10px" }} />
 
         </>
       )
