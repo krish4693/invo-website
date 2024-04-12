@@ -48,7 +48,7 @@ export const Hero = () => {
             Download</Button>
 
           <a
-            href="https://invov2.netlify.app/"
+            href="/docs/Getting-Started"
             target="_blank"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
