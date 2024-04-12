@@ -32,5 +32,11 @@ export default {
 
         </>
       )
-  }
+  },
+  footer:{
+    text:()=>{
+      return (<>
+      <p>©  {new Date().getFullYear()} Team INVO</p>
+      </>)
+    }  }
 }
