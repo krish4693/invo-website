@@ -1,7 +1,6 @@
 
 import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
-import Link from "next/link";
 // import { HeroCards } from "./HeroCards";
 
 import {
@@ -14,6 +13,7 @@ import {
 } from "@/components/ui/card"
 import Mockup from "./Mockup";
 import { GitHubLogoIcon,ReaderIcon,DownloadIcon } from "@radix-ui/react-icons";
+import Link from "next/link";
 
 export const Hero = () => {
   return (
@@ -48,10 +48,13 @@ export const Hero = () => {
             <DownloadIcon className="mr-2 font-bold"/>
             Download</Button>
 
-            <Link
-              href="/docs/Getting-Started"
-              className={`border ${buttonVariants({ variant: "secondary" })}`}
-            >
+          <Link
+            href="/docs/Getting-Started"
+            
+            className={`w-full md:w-1/3 ${buttonVariants({
+              variant: "outline",
+            })}`}
+          >
             <ReaderIcon className="mr-2 font-bold"/>
             Documentation
           </Link>
