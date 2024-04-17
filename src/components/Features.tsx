@@ -27,6 +27,13 @@ const serviceList: ServiceProps[] = [
       "User can customize the columns according to their need and convienience.This can makes a customized billing interface and ease for inventory management.",
     icon: <MagnifierIcon />,
   },
+
+  {
+    title: "Chatbot",
+    description:
+      "User can chabot feature that have similar abilities of ChatGPT.",
+    icon: <MagnifierIcon />,
+  },
 ];
 
 export const Features = () => {
