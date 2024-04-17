@@ -1,6 +1,7 @@
 
 import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
+import Link from "next/link";
 // import { HeroCards } from "./HeroCards";
 
 import {
@@ -47,16 +48,13 @@ export const Hero = () => {
             <DownloadIcon className="mr-2 font-bold"/>
             Download</Button>
 
-          <a
-            href="/docs/Getting-Started"
-            target="_blank"
-            className={`w-full md:w-1/3 ${buttonVariants({
-              variant: "outline",
-            })}`}
-          >
+            <Link
+              href="/docs/Getting-Started"
+              className={`border ${buttonVariants({ variant: "secondary" })}`}
+            >
             <ReaderIcon className="mr-2 font-bold"/>
             Documentation
-          </a>
+          </Link>
         </div>
       </div>
 
