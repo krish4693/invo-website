@@ -31,7 +31,7 @@ const serviceList: ServiceProps[] = [
   {
     title: "Chatbot",
     description:
-      "User can chabot feature that have similar abilities of ChatGPT.",
+      "Chatbot feature offers real-time assistance to users, providing instant responses to inquiries related to inventory management, billing, and other functionalities.",
     icon: <MagnifierIcon />,
   },
 ];
