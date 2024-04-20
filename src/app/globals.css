@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sacramento&display=swap');
 
 
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.sacramento-regular {
+  font-family: "Sacramento", cursive;
+  font-weight: 1000;
+  font-style: italic;
+}
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 .shadow {
   position: absolute;
