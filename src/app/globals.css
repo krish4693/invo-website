@@ -6,6 +6,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .shadow {
   position: absolute;
   background: hsl(var(--primary) / 0%);
