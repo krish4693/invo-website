@@ -96,6 +96,8 @@ export const Navbar = () => {
                     </a>
                   ))}
                   
+                  <a href="/docs/Getting-Started" className={buttonVariants({ variant: "ghost" })}>Documentation</a>
+                  <a href="/" className={buttonVariants({ variant: "ghost" })}>Download</a>
                   
                 </nav>
               </SheetContent>
