@@ -27,9 +27,16 @@ export function ThemeProvider({
   storageKey = "theme",
   ...props
 }: ThemeProviderProps) {
-  const [theme, setTheme] = useState<Theme>(
-    () => (localStorage.getItem(storageKey) as Theme) || defaultTheme
-  );
+  const [theme, setTheme] = useState<Theme>(() => {
+    if (typeof window !== 'undefined') {
+      // Check if localStorage is available
+      const storedTheme = localStorage.getItem(storageKey);
+      return (storedTheme as Theme) || defaultTheme;
+    } else {
+      // Return a default theme if localStorage is not available (e.g., server-side rendering)
+      return defaultTheme;
+    }
+  });
 
   useEffect(() => {
     const root = window.document.documentElement;
