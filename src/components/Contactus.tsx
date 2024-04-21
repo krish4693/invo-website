@@ -1,6 +1,14 @@
 "use client"
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card"
 
 export const Contactus = () => {
   const handleSubmit = (e: any) => {
@@ -13,7 +21,7 @@ export const Contactus = () => {
 
       <div className="flex flex-col md:flex md:flex-row md:mx-10">
       <form
-          className="flex flex-col  justify-center align-center w-full md:flex-col md:w-6/12 lg:w-4/12  gap-4 md:gap-2 md:ml-auto"
+          className="flex flex-col  justify-center  align-center w-full md:flex-col md:w-6/12 lg:w-4/12  gap-4 md:gap-2 md:ml-auto md:justify-center md:align-baseline"
           onSubmit={handleSubmit}
         >
           <Input

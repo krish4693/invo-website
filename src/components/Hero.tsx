@@ -3,14 +3,7 @@ import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
 // import { HeroCards } from "./HeroCards";
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card"
+
 import Mockup from "./Mockup";
 import { GitHubLogoIcon,ReaderIcon,DownloadIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
