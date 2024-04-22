@@ -5,7 +5,7 @@ import { buttonVariants } from "./ui/button";
 
 
 import Mockup from "./Mockup";
-import { GitHubLogoIcon,ReaderIcon,DownloadIcon } from "@radix-ui/react-icons";
+import { ReaderIcon,DownloadIcon } from "@radix-ui/react-icons";
 import Link from "next/link";
 
 export const Hero = () => {
