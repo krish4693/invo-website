@@ -25,7 +25,7 @@ export const Statistics = (): JSX.Element => {
   ];
 
   return (
-    <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
+    
       <section id="statistics">
         <div className="grid grid-cols-2 lg:grid-cols-2 gap-8">
           {stats.map(({ quantity, description }: statsProps) => (
@@ -43,7 +43,7 @@ export const Statistics = (): JSX.Element => {
           ))}
         </div>
       </section>
-    </ScrollTrigger>
+  
 
   );
 };
