@@ -33,7 +33,7 @@ export const Statistics = (): JSX.Element => {
               key={description}
               className="space-y-2 text-center"
             >
-              <h2 className="text-3xl sm:text-4xl font-bold ">{counterOn &&
+              <h2 className="text-3xl sm:text-4xl font-bold ">{
                 <CountUp start={0} end={quantity} duration={2} delay={0} />}
 
                 +
