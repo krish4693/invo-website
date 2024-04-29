@@ -59,7 +59,7 @@ export const Hero = () => {
       {/* Shadow effect */}
       {/* <div className="shadow"></div> */}
       
-      <div className="z-10">
+      <div className="z-10 animate-slideRight">
         <Mockup/>
         {/* <HeroCards /> */}
       </div>
