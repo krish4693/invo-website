@@ -162,7 +162,8 @@
 }
 
 .animate-slideRight {
-  animation: slideRight 0.5s ease-out;
+  animation: slideRight 1s ease-out;
+  animation-delay: 1s; /* Adding a delay of 1 second */
 }
 
 .new-container {
