@@ -19,7 +19,7 @@ const useDark = () => {
 
 export default {  
   project: {
-    link: 'https://github.com/nikhitkumar00/invo-v2'
+    link: 'https://github.com/nikhitkumar00/INVO_V2'
   },
 
   primaryHue: 1,

@@ -164,3 +164,9 @@
 .animate-slideRight {
   animation: slideRight 0.5s ease-out;
 }
+
+.new-container {
+  position: absolute;
+  right :0;
+  top :50px;
+}

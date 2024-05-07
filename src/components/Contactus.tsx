@@ -11,10 +11,6 @@ import {
 } from "@/components/ui/card"
 
 export const Contactus = () => {
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
-    console.log("Subscribed!");
-  };
 
   return (
     <section id="contact" className="md:mb-7">
@@ -22,24 +18,28 @@ export const Contactus = () => {
       <div className="flex flex-col md:flex md:flex-row md:mx-10">
       <form
           className="flex flex-col px-3 justify-center  align-center w-full md:flex-col md:w-6/12 lg:w-4/12  gap-4 md:gap-2 md:ml-auto md:justify-center md:align-baseline "
-          onSubmit={handleSubmit}
+          action="https://formspree.io/f/xjvnldbp"
+          method="POST"
         >
           <Input
             placeholder="Name"
             className="bg-muted/50 dark:bg-muted/80 "
             aria-label="name"
+            name="name"
           />
           <Input
             placeholder="Email"
             className="bg-muted/50 dark:bg-muted/80 "
             aria-label="email"
+            name="email"
           />
           <Input
             placeholder="Message"
             className="bg-muted/50 dark:bg-muted/80 "
             aria-label="text"
+            name="message"
           />
-          <Button className="w-40 mx-auto">Send Message</Button>
+          <Button className="w-40 mx-auto" type="submit">Send Message</Button>
         </form>
 
 

@@ -13,7 +13,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="container py-24 sm:py-20"
+      className="container py-24 sm:py-20 md:mt-24"
     >
       
       <div className="bg-muted/50 border rounded-lg py-12">
