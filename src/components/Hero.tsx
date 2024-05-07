@@ -11,7 +11,7 @@ export const Hero = () => {
   return (
     <section className="container grid lg:grid-cols-2 place-items-center py-20 md:py-32 gap-10">
 
-      <div className="text-center lg:text-start space-y-6 md:pt-10 ">
+      <div className="text-center lg:text-start space-y-6 md:pt-12 ">
         <main className="text-5xl md:text-6xl font-bold pacifico-regular">
           <h1 className="inline ">
             <span>
@@ -63,7 +63,7 @@ export const Hero = () => {
       {/* Shadow effect */}
       {/* <div className="shadow"></div> */}
 
-      <div className="z-10 animate-slideRight md:absolute md:top-10 md:right-0 ">
+      <div className="z-10 animate-slideRight md:absolute md:top-12 md:right-0 md: ">
         {/* <HeroCards /> */}<div className="animate-slideRight md:h-8">
         <Mockup />
       </div>
