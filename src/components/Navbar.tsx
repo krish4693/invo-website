@@ -130,8 +130,8 @@ export const Navbar = () => {
             </Link>
             <Button asChild>
             <Link
-              href="https://invov2.netlify.app/"
-              target="_blank"
+              href="https://github.com/nikhitkumar00/INVO_V2"
+            
               className="flex"
             >
               <DownloadIcon className="mr-2 w-5 h-5" />
